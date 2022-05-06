@@ -6,8 +6,8 @@ on: [push]
 #  SLACK_WEBHOOK: https://hooks.slack.com/services/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
 
 jobs:
-  CI:
-    name: CI
+  ci:
+    name: ci
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -16,8 +16,9 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Unit Test
-      run: cd ${{ github.workspace }}
-      # run: cd sample-webapp && npm install && npm run test:unit
+      run: |
+        cd ${{ github.workspace }}
+        cd sample-webapp && npm install && npm run test:unit
 
     # TODO add tests for backend and restapi
 
