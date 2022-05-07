@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="642c1446-77f2-4c35-a417-1d46835ee283" name="Changes" comment="" />
+    <list default="true" id="642c1446-77f2-4c35-a417-1d46835ee283" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/cd-workflow.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cd-workflow.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-webapp/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sample-webapp/src/components/HelloWorld.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1651214178039</updated>
       <workItem from="1651214181086" duration="6253000" />
-      <workItem from="1651405046824" duration="3046000" />
+      <workItem from="1651405046824" duration="3892000" />
     </task>
     <servers />
   </component>
